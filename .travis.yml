@@ -29,7 +29,6 @@ env:
     - PKG_NAME=sglppow
     - PKG_NAME=simpcomp
     - PKG_NAME=tomlib
-    - PKG_NAME=unitlib
     - PKG_NAME=uuid
     - PKG_NAME=wedderga
 
