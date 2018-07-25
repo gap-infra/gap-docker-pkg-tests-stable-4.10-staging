@@ -19,7 +19,6 @@ env:
     - PKG_NAME=crime
     - PKG_NAME=cryst
     - PKG_NAME=ctbllib
-    - PKG_NAME=example
     - PKG_NAME=fr
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
