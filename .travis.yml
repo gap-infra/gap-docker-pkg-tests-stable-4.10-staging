@@ -27,6 +27,7 @@ env:
     - PKG_NAME=loops
     - PKG_NAME=lpres
     - PKG_NAME=nq
+    - PKG_NAME=permut
     - PKG_NAME=polymaking
     - PKG_NAME=semigroups
     - PKG_NAME=sglppow
