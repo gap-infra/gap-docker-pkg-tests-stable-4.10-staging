@@ -33,7 +33,6 @@ env:
     - PKG_NAME=simpcomp
     - PKG_NAME=tomlib
     - PKG_NAME=wedderga
-    - PKG_NAME=xmodalg
 
 services:
   - docker
