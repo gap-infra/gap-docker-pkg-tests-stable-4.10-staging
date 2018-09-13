@@ -21,7 +21,6 @@ env:
     - PKG_NAME=ctbllib
     - PKG_NAME=curlinterface
     - PKG_NAME=deepthought
-    - PKG_NAME=fr
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
@@ -31,9 +30,7 @@ env:
     - PKG_NAME=lpres
     - PKG_NAME=mapclass
     - PKG_NAME=matgrp
-    - PKG_NAME=nq
     - PKG_NAME=polymaking
-    - PKG_NAME=semigroups
     - PKG_NAME=sgpviz
     - PKG_NAME=simpcomp
     - PKG_NAME=singular
