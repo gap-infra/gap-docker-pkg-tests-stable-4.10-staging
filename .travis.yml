@@ -13,20 +13,16 @@ env:
     - PKG_NAME=cryst
     - PKG_NAME=ctbllib
     - PKG_NAME=curlinterface
-    - PKG_NAME=deepthought
     - PKG_NAME=gbnp
     - PKG_NAME=guarana
     - PKG_NAME=hapcryst
-    - PKG_NAME=kbmag
     - PKG_NAME=linboxing
     - PKG_NAME=loops
     - PKG_NAME=lpres
-    - PKG_NAME=mapclass
     - PKG_NAME=polymaking
     - PKG_NAME=sgpviz
     - PKG_NAME=simpcomp
     - PKG_NAME=tomlib
-    - PKG_NAME=wedderga
 
 services:
   - docker
