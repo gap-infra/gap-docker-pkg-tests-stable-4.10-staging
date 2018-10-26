@@ -11,6 +11,7 @@ env:
     - PKG_NAME=atlasrep
     - PKG_NAME=ctbllib
     - PKG_NAME=curlinterface
+    - PKG_NAME=francy
     - PKG_NAME=gbnp
     - PKG_NAME=hapcryst
     - PKG_NAME=loops
