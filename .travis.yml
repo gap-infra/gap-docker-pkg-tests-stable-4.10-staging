@@ -9,7 +9,6 @@ env:
 
   matrix:
     - PKG_NAME=atlasrep
-    - PKG_NAME=cryst
     - PKG_NAME=ctbllib
     - PKG_NAME=curlinterface
     - PKG_NAME=gbnp
@@ -17,7 +16,6 @@ env:
     - PKG_NAME=loops
     - PKG_NAME=polymaking
     - PKG_NAME=sgpviz
-    - PKG_NAME=simpcomp
     - PKG_NAME=tomlib
 
 services:
