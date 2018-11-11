@@ -12,7 +12,6 @@ env:
     - PKG_NAME=ctbllib
     - PKG_NAME=gbnp
     - PKG_NAME=hapcryst
-    - PKG_NAME=loops
     - PKG_NAME=polymaking
 
 services:
