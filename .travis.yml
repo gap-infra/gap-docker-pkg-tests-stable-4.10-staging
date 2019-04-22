@@ -13,7 +13,6 @@ env:
     - PKG_NAME=gbnp
     - PKG_NAME=hapcryst
     - PKG_NAME=intpic
-    - PKG_NAME=packagemanager
     - PKG_NAME=polymaking
     - PKG_NAME=rcwa
     - PKG_NAME=recog
