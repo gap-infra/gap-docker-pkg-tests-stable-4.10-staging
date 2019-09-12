@@ -1,5 +1,3 @@
-sudo: required
-
 language: c
 
 branches:
@@ -9,9 +7,8 @@ branches:
 env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.10"
-    - GAPDIRNAME="gap-stable-4.10"
 
-  matrix:
+matrix:
     - PKG_NAME=atlasrep
     - PKG_NAME=ctbllib
     - PKG_NAME=fr
@@ -29,8 +26,8 @@ services:
   - docker
 
 before_install:
-- docker pull ${GAPCONTAINER}
+  - docker pull ${GAPCONTAINER}
 
 script:
-    - docker version
-    - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "GAPDIRNAME=${GAPDIRNAME} PKG_NAME=${PKG_NAME} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
+  - docker version
+  - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "PKG_NAME=${PKG_NAME} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
