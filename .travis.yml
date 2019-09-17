@@ -8,7 +8,7 @@ env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.10"
 
-matrix:
+  matrix:
     - PKG_NAME=atlasrep
     - PKG_NAME=ctbllib
     - PKG_NAME=fr
